@@ -1,0 +1,151 @@
+/*fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/*common style*/
+::-webkit-scrollbar{
+    display: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+/*top part*/
+
+
+header{
+    background-color: #2D25A0;
+    width: 1440px;
+    height: 657px;
+
+}
+.online-watch{
+    display: flex;
+}
+.copa-2021{
+    width: 500px;
+    padding-left: 700px;
+    padding-top: 140px;
+}
+.copa-2021 img{
+    display: block;
+    width: 518px;
+    height: 437px;
+    margin: 0;
+}
+.watch{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+    width: 650px;
+    height: 205px;
+}
+
+/* player idectification*/
+
+.player-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 190px;
+    padding-top: 30px;
+    position: relative;
+    border-radius: 30px;
+
+}
+.player{
+    width: 330px;
+    height: 434px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 30px gray;
+}
+.player img{
+    width: 300px;
+    height: 236px;
+    padding-right: 10px;
+}
+h2{
+    color: #18191F;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    color: gray;
+}
+.view-match{
+    display: flex;
+}
+.info{
+    width: 567px;
+    height: 409px;
+    padding-left: 235px;
+    padding-top: 200px;
+}
+.match img{
+    
+    width:727px;
+    height: 607px;
+    padding-left: 200px;
+    padding-top: 120px;
+
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: #0A0826;
+    width: 650px;
+    height: 205px;
+    padding-top: 50px;
+}
+/* football*/
+
+
+.football{
+    width: 500px;
+    padding-left: 450px;
+    padding-top: 100px;
+}
+.football-logo img{
+    display: block;
+    margin: 0 auto;
+    width: 413px;
+    height: 100px;
+}
+.social-icon{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+ul{
+    display: flex;
+}
+ul li{
+    position: relative;
+    display: block;
+    font-size: 30px;
+    height: 40px;
+    width: 30px;
+    line-height: 60px;
+    border-radius: 50%;
+    margin:  15px;
+    cursor: pointer;
+}
+ul li img{
+    width: 45px;
+    height: 40px;
+    align-items: center;
+}
+footer{
+    text-align: center;
+}
